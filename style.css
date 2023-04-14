@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400&family=Jost&family=Poppins:ital,wght@1,500&family=Tajawal:wght@300&display=swap');
+
+*{
+    font-family: 'Tajawal', sans-serif;
+    margin: 0%;
+    font-weight: 900;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(156, 156, 156);
+}
+
+.itm-qrCode{
+    display: grid;
+    background-color: white;
+    box-shadow: -10px 10px 25px rgba(0, 0, 0, 0.158);
+    padding: 20px 30px;
+    border-radius: 15px;
+}
+
+.itm-qrCode h2{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 2%;
+}
+
+hr {
+    border: 1px solid rgba(136, 136, 136, 0.438);
+    margin-bottom: 7%;
+}
+
+.itm-qrCode input{
+    font-size: 3em;
+    background-color: rgba(204, 204, 204, 0.438);
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+
+.itm-qrCode button{
+    background-color: #0088ff;
+    color: white;
+    font-size: 2em;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10%;
+}
+
+.itm-qrCode button:hover{
+    background-color: white;
+    color: #0088ff;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.itm-qrCode .box-qrCode{
+    margin-top: 5%;
+    margin-left: 16%;
+    border: #0088ff 2px dashed;
+    border-radius: 10px;
+    padding: 20px;
+    width: 70%;
+    display: none;
+    cursor: pointer;
+}
+
+.itm-qrCode .box-qrCode:hover{
+    filter: blur(6px);
+}
