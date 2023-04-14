@@ -79,3 +79,28 @@ hr {
 .itm-qrCode .box-qrCode:hover{
     filter: blur(6px);
 }
+
+
+@media (max-width: 1080px) {
+
+    body{
+        height: 90vh;
+    }
+
+    .itm-qrCode h2{
+        font-size: 4em;
+    }
+
+    .itm-qrCode input{
+        font-size: 4em;
+    }
+
+    .itm-qrCode .box-qrCode{
+        border: 6.7px #0088ff dashed;
+    }
+
+    .itm-qrCode button{
+        font-size: 4em;
+    }
+
+}
